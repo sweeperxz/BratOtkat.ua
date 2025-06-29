@@ -1,0 +1,47 @@
+﻿# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+**/Dockerfile*
+**/docker-compose*
+
+# Others
+*.db
+.env
+*.swp
+
+# Test results
+TestResults/
+
+# NuGet
+*.nupkg
+.nuget/
+
+# Build
+artifacts/
+
+# Coverage
+coverage*
+
+# Ignore local settings
+appsettings.Development.json
+
